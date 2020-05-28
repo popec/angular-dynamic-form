@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   data: any = {
-    destination: {}
+    destination: {
+      details: {}
+    }
   };
 
   change($event) {
